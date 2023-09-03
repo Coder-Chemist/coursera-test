@@ -1,0 +1,107 @@
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Top heading styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation menu styles */
+nav {
+    background-color: #444;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+div
+{ 
+    display: inline-block;
+    height: 200px;
+
+}
+
+/* Dish styles */
+.dish {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* Dish backgrounds */
+.dish-1 {
+    background-color: #FF5733;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.dish-2 {
+    background-color: #33FF57;
+    width: 30%;
+    border  1px solid black;
+}
+
+.dish-3 {
+    background-color: #5733FF;
+    width: 30%
+}
+
+/* Responsive design */
+@media (max-width: 767px) {
+    header {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    nav {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .dish {
+        font-size: 18px;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 767px) {
+    header {
+        font-size: 24px;
+
+    }
+
+    nav {
+        font-size: 18px;
+    }
+
+    .dish {
+        font-size: 18px;
+        margin-top: 50px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1349px) {
+    .dish-1, .dish-2 {
+        width: 44%;
+    }
+
+    .dish-3 {
+        width: 100%;
+    }
+}
